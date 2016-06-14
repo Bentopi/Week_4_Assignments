@@ -1,0 +1,13 @@
+<div class="description">
+<%= @cat.description %>
+</div>
+<div class="picture">
+  <% if @cat.id == 'cat-man' %>
+    <%= image_tag 'catman.jpg' %>
+  <% else %>
+    <%= image_tag 'thebigone.jpg' %>
+    <%end%>
+</div>
+
+
+<%=link_to 'Back', cats_path, class: 'goback' %>

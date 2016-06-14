@@ -1,0 +1,9 @@
+<h3>Here is a list of cats:</h3>
+
+<ul>
+  <% @cats.each do |cat| %>
+  <li>
+  <%= link_to cat.name, cat_path(id: cat.id) %>
+  </li>
+<% end %>
+</ul>

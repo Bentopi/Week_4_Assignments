@@ -1,0 +1,50 @@
+$mainColor:#ecf0f1;
+$altColor:#95a5a6;
+
+header {
+  margin-left: 15px;
+}
+
+nav {
+  margin-left: 25px;
+  font-size: 24px;
+  a {
+    color: $mainColor;
+    background: $altColor;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid $mainColor;
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+      background: $mainColor;
+      color: $altColor;
+
+    }
+  }
+}
+body .yield {
+  padding-left: 15px;
+  ul {
+    font-size: 20px;
+  }
+  .picture {
+    padding:15px;
+    img {
+      border-radius: 5px;
+      border: 2px solid $altColor;
+      width: 500px;
+    }
+  }
+  .goback {
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  .description {
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 20px;
+    color: $altColor;
+  }
+}
